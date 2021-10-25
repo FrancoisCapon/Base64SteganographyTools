@@ -41,7 +41,7 @@ Tool | Function | First parameter | Second parameter | Third parameter
 
 ## Credits
 
-* [BASE jumping photography `Kl 3 way`](http://www.basejumper.com/photos/Building/Kl_3_way_796.html)
+* BASE jumping photography [Kl 3 way](http://www.basejumper.com/photos/Building/Kl_3_way_796.html)
 * [DELIMITRY > Olympic CTF 2014 - Find da key writeup](https://delimitry.blogspot.com/2014/02/olympic-ctf-2014-find-da-key-writeup.html) to build cross tests with:
     * the example of [file with steganography in base64](http://shell-storm.org/repo/CTF/Olympic-2014/Find_da_Key/stego.txt)
     * the script (Python version 2) to retrieve my hidden messages
