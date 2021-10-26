@@ -1,4 +1,4 @@
-# Base64 Steganography Tools
+# Base64 Steganography Tools (in Bash)
 
 ![BASE jumping photography Kl 3 way](./doc/base64-steganography-tools.jpg)
 
