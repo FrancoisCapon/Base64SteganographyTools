@@ -4,12 +4,12 @@
 
 ## The principle of steganography in base64
 
-It is based on the way that the base64 encoding principle: 
+It is based on the base64 encoding principle: 
 
 > Since the input data must consist of a whole number of bytes, only three cases are possible at the end of the sequence:
 > * there are exactly 3 bytes left to encode (24 bits), so we directly have 4 characters without further processing
-> * there are only 2 bytes (16 bits) left to be coded, **so we add on the right 2 bits with zeros (padding bits)** to form 3 characters of the alphabet (3×6 = 16+2 = 18 bits) followed by a fourth character "=" in complement
-> * there remains only one byte (8 bits) to be coded, **so we add to the right 4 bits with zeros (padding bits)** to form 2 characters of the alphabet (2×6 = 8+4 = 12 bits) followed by two characters " = " in complement.
+> * there are only 2 bytes (16 bits) left to be coded, **so we add on the right 2 bits at zero (padding bits)** to form 3 characters of the alphabet (3×6 = 16+2 = 18 bits) followed by a fourth character "=" in complement
+> * there remains only one byte (8 bits) to be coded, **so we add to the right 4 bits at zero (padding bits)** to form 2 characters of the alphabet (2×6 = 8+4 = 12 bits) followed by two characters " = " in complement.
 >
 > https://fr.wikipedia.org/wiki/Base64
 
