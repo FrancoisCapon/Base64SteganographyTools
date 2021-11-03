@@ -17,7 +17,7 @@ The principle of steganography is to use the **padding bits** to hide the bits o
 
 ## The tools in Bash
 
-At the beginning, I just wanted to identify the last characters of a base64 string that are not regular (right bits not padded with zero) in the `=` and `==` cases. The Bash and the [Brace Expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html#Brace-Expansion) was a perfect tool to build the table of the base64 characters.
+At the beginning, I just wanted to identify the last characters of a base64 string that are not regular (right bits not padded with zero) in the `=` and `==` cases. The Bash with its [Brace Expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html#Brace-Expansion) feature was a perfect tool to build the table of the base64 characters.
 
 And from one thing to another, I wrote all the tools in Bash using "tables" to avoid calculations.
 
