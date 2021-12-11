@@ -39,7 +39,7 @@ Tool | Function | First parameter | Second parameter | Third parameter
 **b64_encode.sh** | encode each line of a file to a file | the input filename | the output filename | ∅
 **b64_decode.sh** | decode each line of a file to a file | the input filename | the output filename | ∅
 
-## Use case
+## Use case `Alice --(Bob)--> Charlie`    
 
 Alice on the left wants to send a secret message to Charlie but she knows that Bob (he is jealous) in the middle will intercept and read it.
 
