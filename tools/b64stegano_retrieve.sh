@@ -43,5 +43,5 @@ do
         handle_line
     fi 
 done < $file
-echo -e "Remaining bits:\t"$hidden_bits'\n'
+echo -e "Remaining bits (must be empty or only bits zero): "$hidden_bits'\n'
 echo -e "Hidden message:\t"$message'\n'

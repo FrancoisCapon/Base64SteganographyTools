@@ -92,4 +92,4 @@ do
         echo "$line" >> "$file_out"
     fi 
 done < $file_in
-echo -e "Remaining bits:\t"$bits_of_message'\n'
+echo -e "Remaining bits to hide (must be empty): "$bits_of_message'\n'
