@@ -41,7 +41,7 @@ Tool | Function | First parameter | Second parameter | Third parameter
 
 ## Use case `Alice --(Bob)--> Charlie`    
 
-Alice on the left wants to send a secret message to Charlie but she knows that Bob (he is jealous) in the middle will intercept and read it.
+Alice, on the left, wants to send a secret message to Charlie, on the right, but she knows that Bob in the middle will intercept and read it (he is jealous).
 
 ### Alice
 
