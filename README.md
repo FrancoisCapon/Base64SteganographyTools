@@ -45,12 +45,12 @@ Alice on the left wants to send a secret message to Charlie but she knows that B
 
 ### Alice
 
-So, she will hide the message `Tomorrow 05:00PM!` in another message (the RFC 666) in a single command! :fairy:
+So, she will hide the message `Tomorrow 05:00PM!` in another message (the RFC 666) in a single command! :muscle:
 
-```bash
+```
 alice$ ./tools/b64stegano_hide.sh "Tomorrow 05:00PM!" <(./tools/b64_encode.sh <(curl -s https://www.rfc-editor.org/rfc/rfc666.txt) /dev/stdout) rfc666.b64
 ```
-And send the `rfc666.b64` to Charlie.
+And send the `rfc666.b64` file to Charlie.
 
 ### Bob
 
@@ -75,7 +75,7 @@ NIC: 31396
 
 Charlie retrieve the secret message hidden in the file:
 
-```bash
+```
 charlie$ ./tools/b64stegano_retrieve.sh rfc666.b64
 Remaining bits (must be empty or only bits zero): 000000
 
