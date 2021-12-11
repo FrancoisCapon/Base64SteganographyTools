@@ -45,12 +45,12 @@ Alice, on the left, wants to send a secret message to Charlie, on the right, but
 
 ### Alice
 
-So, she will hide the message `Tomorrow 05:00PM!` in another message (the RFC 666) in a single command! :muscle:
-
+Therefore, she will:
+* hide the message `Tomorrow 05:00PM!` in another message (the RFC 666) in a "single command" :muscle:
 ```
-alice$ ./tools/b64stegano_hide.sh "Tomorrow 05:00PM!" <(./tools/b64_encode.sh <(curl -s https://www.rfc-editor.org/rfc/rfc666.txt) /dev/stdout) rfc666.b64
+alice$ ./tools/b64stegano_hide.sh "Tomorrow 05:00PM!" <(./tools/b64_encode.sh <(curl -s https://www.rfc-editor.org/rfc/rfc666.txt) /dev/stdout) rfc666.b64 
 ```
-And send the `rfc666.b64` file to Charlie.
+* send the `rfc666.b64` file to Charlie.
 
 ### Bob
 
